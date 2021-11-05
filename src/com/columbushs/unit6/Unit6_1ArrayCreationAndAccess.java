@@ -13,7 +13,7 @@ public class Unit6_1ArrayCreationAndAccess {
     //Because of this the last element of an array is at index = length-1
 
     public void arrayTesting() {
-
+        /*
         //array of ints
 
         //if ints initialized to 0
@@ -32,20 +32,22 @@ public class Unit6_1ArrayCreationAndAccess {
 
         //out of bounds
 
-        //listOfInts[5]=22;
+//        listOfInts[5]=22;
 
 
         //Printing out the list
 
-        //System.out.println(listOfInts);
+        System.out.println(listOfInts);
 
         //print out all the values using loop
 
-//		int i = 0;
-//		while (i<listOfInts.length) {
-//			System.out.println(listOfInts[i]);
-//			i++;
-//		}
+        System.out.println("--------Loop start--------");
+		int i = 0;
+		while (i<listOfInts.length) {
+			System.out.println(listOfInts[i]);
+			i++;
+		}
+        System.out.println("--------Loop end--------");
 
 
         //Array of objects
@@ -68,25 +70,25 @@ public class Unit6_1ArrayCreationAndAccess {
 
         System.out.println(listOfObj[0].getValue());
 
-
         //If you know the values beforehand you can initialize with info
 
-//		double [] randomNumbers = {12.5, 34.6, 1, 5, 89.3};
-//		
-//		int x = 0;
-//		while (x<randomNumbers.length) {
-//			System.out.println(randomNumbers[x]);
-//			x++;
-//		}
+		double [] randomNumbers = {12.5, 34.6, 1, 5, 89.3};
 
+		int x = 0;
+		while (x<randomNumbers.length) {
+			System.out.println(randomNumbers[x]);
+			x++;
+		}
 
-//		String [] stuff = {"Appels", "Hats", "Hair", "More Things"};
+         */
 
-//		int y = 0;
-//		while (y<stuff.length) {
-//			System.out.println(stuff[y]);
-//			x++;
-//		}
+		String [] stuff = {"Appels", "Hats", "Hair", "More Things"};
+
+		int y = 0;
+		while (y<stuff.length) {
+			System.out.println(stuff[y]);
+			y++;
+		}
 
 
     }
