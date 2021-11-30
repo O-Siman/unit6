@@ -85,7 +85,7 @@ public class Unit6_1ArrayCreationAndAccess {
         System.out.println(sum / randomNumbers.length);
 
 
-        String[] stuff = {"Appels", "Hats", "Hair", "More Things", "Bob", "John"};
+        String[] stuff = {"Apples", "Hats", "Hair", "More Things", "Bob", "John"};
 
 //		int y = 0;
 //		while (y<stuff.length) {
