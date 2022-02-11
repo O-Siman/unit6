@@ -3,7 +3,6 @@ package com.columbushs.unit6;
 import java.text.DecimalFormat;
 
 public class Unit6_2ArrayTraversal {
-
     private static final DecimalFormat df = new DecimalFormat("0.00");
 
     public void arrayTrav() {

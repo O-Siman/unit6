@@ -41,6 +41,8 @@ public class Unit6Main {
         double x = (int) (5.5 - 2.5);
         double y = (int) 5.5 - 2.5;
         System.out.println(x - y);
+
+
     }
 
 }
